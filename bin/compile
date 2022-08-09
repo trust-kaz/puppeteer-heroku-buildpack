@@ -13,6 +13,7 @@ CACHE_DIR=$2
 ENV_DIR=$3
 
 LP_DIR=`cd $(dirname $0); cd ..; pwd`
+FONTS_DIR=`cd "$LP_DIR/fonts"; pwd`
 
 function error() {
   echo " !     $*" >&2
